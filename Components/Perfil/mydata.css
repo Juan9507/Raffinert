@@ -1,0 +1,17 @@
+.label {
+    margin-left: 20px;
+    float: left;
+    padding: 10px;
+}
+.labelPrincipal{
+    float: left;
+    margin: auto;
+    padding: 10px;
+}
+.card{
+    flex-direction: row !important;
+}
+.domicilio{
+    margin-left: 20px;
+    padding: 2px;
+}

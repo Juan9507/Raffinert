@@ -1,0 +1,27 @@
+.dropdown-item:hover{
+    color:#b66dff !important;
+}
+.form-control {
+    border: 1px solid #ced4da;
+    font-family: "ubuntu-regular", sans-serif;
+    font-size: 0.8125rem;
+    }
+    select.form-control {
+    padding: .4375rem .75rem;
+    border: 0;
+    outline: 1px solid #ced4da;
+    color: #c9c8c8;
+   }
+   .sidebar .nav .nav-item.active > .nav-link .menu-title {
+    color: #047edf;
+    font-family: "ubuntu-medium", sans-serif;
+    }
+    .sidebar .nav .nav-item.active > .nav-link i {
+    color: #047edf;
+    }
+    .sidebar .nav .nav-item .nav-link i.menu-icon {
+        font-size: 1.125rem;
+        line-height: 1;
+        margin-left: auto;
+        color: #047edf;
+    }

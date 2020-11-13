@@ -1,0 +1,38 @@
+Carpeta SQL---- esta la base de datos
+sendEmail--- estan todos los archivos para el envio del correo electronico
+Database --- estan los archivos de la conexion a la base de datos, y el archivo consult estan todas las  
+consultas a la base de datos oriendo a objetos
+Controller--- estan los archivos para controlar el login, los registros y el cerrar sesion
+Components--- estan las carpetas Perfil y productos
+perfil --- estan los archivos de mis datos, mis compras, y actualizar mis datos
+products-- esta el archivo de comprar producto
+assets--- tiene los archivos de css,js imagenes, logos etc
+en la carpeta js esta el javascript llamado login que es el utilizado para las validaciones del login y el
+envio ajax
+Carpeta Admin ******************************************************************************************
+indes --- es la gestión de productos
+indexform--- es el formulario de actualizar productos
+report-pd--- estan los archivos necesarios para los reportes en pdf y estan los archivos lo cual son de reportproductos,
+reportproveedores y reportventas que son los utilizados para hacer los reportes de esas gestiones
+pages-- estan las otras paginas de las gestiones.
+assets-- estan los archivos css, js, etc
+
+****************************FUNCIONES Y CONDICIONES DE LA PÁGINA WEB************************************************
+LOGIN-- el login tiene validaciones del que el correo exista, de resto te saldra una alerta (usuario no existe).
+Si el correo es corecto pero la contraseña es incorrecta te saldra la alerta (conseña incorrecta).
+si amban son correctas iniciaras sesión.
+REGISTRO--el formulario de registro tiene la validación que si el correo que registra ya existe te mostrara la alerta (usuario ya existe).
+ojo el correo tiene que ser verdadero para que llegue el correo electronico depues de realizar una compra.
+COMPRA-- el fomulario de compra tiene la validacion de la tarjeta de credicto que este llenado correctamente
+todos los numeros, si falta un solo numero te mostrara la alerta de error, al realizar lacompra te llegara un correo
+de la compra.
+cada que se compra un producto la cantidad que elija se le descontara a la base de datos, lo cual cuando quede en 0 
+aparecera producto agotado, y no se podra realizar mas compras de ese producto.
+MIS DATOS-- mis datos se actualza la contraseña y mis datos personales por separado
+ADMINISTRACIÓN
+las credenciales para administración son: 
+rol 1 para usuario
+rol 2 administración
+solo existe un usuario con el rol administrativo ( ver en localhost phpMyadmin)
+
+ 
